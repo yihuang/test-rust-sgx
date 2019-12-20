@@ -1,0 +1,12 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["yihuang <yi.codeplayer@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+enclave1 = { path = "../enclave1" }
+enclave2 = { path = "../enclave2" }
+
+[features]
+enclave = ["enclave1/enclave", "enclave2/enclave"]

@@ -1,0 +1,8 @@
+.*
+Dockerfile
+target
+enclaves/*/target
+README.md
+**/Enclave_u.*
+**/Enclave_t.*
+**/*.swp

@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "server",
+    "enclave1",
+    "enclave2",
+]
+
+exclude = [
+    "enclaves",
+]
